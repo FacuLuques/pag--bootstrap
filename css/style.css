@@ -4,26 +4,36 @@
     padding: 0%;
 }
 
-
+body {
+    background-color: gainsboro;
+}
 
 
 /* HEADER */
 .header div {
     display: flex;
     justify-content: space-between;
-    background-color:  rgb(116, 19, 220);
     color: white;
     align-items:center;
+}
+
+header div h1 {
+    margin-right: auto;
 }
 
 .header {
     position: sticky;
     top: 0;
+    background-color: rgb(116, 19, 220);
 }
 
 .header ul {
     display: flex;
     list-style: none;
+}
+
+.botonera {
+    margin-right: 45px;
 }
 
 .botonera ul li {
@@ -84,6 +94,20 @@ section {
     align-items: center;
 }
 
+/* NOSOTROS */
+
+.contenidoTres {
+    display: flex;
+    align-items:center;
+    margin-bottom: 100px;
+}
+
+.contenidoCuatro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
 /* CONTACTO */
 
 .formulario label {
@@ -140,3 +164,4 @@ section {
         flex-direction: column;
     }
 }
+
