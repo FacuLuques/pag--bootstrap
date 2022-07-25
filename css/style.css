@@ -33,7 +33,7 @@ header div h1 {
 }
 
 .botonera {
-    margin-right: 45px;
+    margin-right: 20px;
 }
 
 .botonera ul li {
@@ -44,10 +44,14 @@ header div h1 {
     text-transform: uppercase;
     color: white;
     text-decoration: none;
+    transition: font-size 0.5s;
+    border-radius: 100px;
 }
 
 .botonera a:hover {
     color: greenyellow;
+    font-size: large;
+    background-color: rgb(73, 15, 136);
 }
 
 /* INDEX */
