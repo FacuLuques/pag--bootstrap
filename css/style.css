@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: gainsboro;
+    background-color: rgb(192, 188, 188);
 }
 
 
@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     color: white;
-    align-items:center;
+    align-items: center;
 }
 
 header div h1 {
@@ -102,7 +102,7 @@ section {
 
 .contenidoTres {
     display: flex;
-    align-items:center;
+    align-items: center;
     margin-bottom: 100px;
 }
 
@@ -110,6 +110,36 @@ section {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+}
+
+/* UNIRTE */
+
+.unirte div a {
+    text-decoration: none;
+    background-color: rgb(116, 19, 220);
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    border-radius: 100px;
+}
+
+.unirte div a:hover {
+    color: greenyellow;
+    font-size: large;
+    background-color: rgb(73, 15, 136);
+}
+
+.contenidoCinco {
+    margin-bottom: 50px;
+}
+
+.contenidoSeis {
+    margin-bottom: 50px;
+}
+
+.contenidoSiete {
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 /* CONTACTO */
@@ -135,6 +165,20 @@ section {
 }
 
 
+/* ESCULTISMO */
+
+.contenidoOcho {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contenidoNueve {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
 /* FOOTER */
 
 
@@ -149,7 +193,7 @@ section {
     display: flex;
 }
 
-    .contFooter ul li {
+.contFooter ul li {
     list-style: none;
     margin: 0 10px;
 }
@@ -169,3 +213,24 @@ section {
     }
 }
 
+@media screen and (max-width: 900px) {
+    .contenidoTres {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenidoCuatro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenidoOcho {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenidoNueve {
+        display: flex;
+        flex-direction: column;
+    }
+}
