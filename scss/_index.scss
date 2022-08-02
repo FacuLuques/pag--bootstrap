@@ -1,0 +1,36 @@
+section {
+    margin-top: 50px;
+  }
+  .contenidoUno {
+    h2 {
+      margin-bottom: 20px;
+      padding: 1%;
+      border-radius: 100px;
+      color: white;
+      background-color: $color-primario;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a {
+      background-color: $color-primario;
+  
+      padding: 1%;
+      color: white;
+      border-radius: 100px;
+      text-decoration: none;
+      &:hover {
+        color: greenyellow;
+      }
+    }
+    iframe {
+      margin-top: 20px;
+    }
+  }
+  .contenidoDos {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }

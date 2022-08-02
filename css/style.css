@@ -1,236 +1,162 @@
-
 * {
-    margin: 0%;
-    padding: 0%;
-}
+  margin: 0%;
+  padding: 0%; }
 
 body {
-    background-color: rgb(192, 188, 188);
-}
+  background-color: #c0bcbc; }
 
-
-/* HEADER */
-.header div {
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #7413dc; }
+  .header div {
     display: flex;
     justify-content: space-between;
     color: white;
-    align-items: center;
-}
+    align-items: center; }
+  .header ul {
+    display: flex;
+    list-style: none; }
 
 header div h1 {
-    margin-right: auto;
-}
-
-.header {
-    position: sticky;
-    top: 0;
-    background-color: rgb(116, 19, 220);
-}
-
-.header ul {
-    display: flex;
-    list-style: none;
-}
+  margin-right: auto; }
 
 .botonera {
-    margin-right: 20px;
-}
-
-.botonera ul li {
-    margin: 0 10px;
-}
-
-.botonera a {
+  margin-right: 20px; }
+  .botonera ul li {
+    margin: 0 10px; }
+  .botonera a {
     text-transform: uppercase;
     color: white;
     text-decoration: none;
     transition: font-size 0.5s;
-    border-radius: 100px;
-}
-
-.botonera a:hover {
-    color: greenyellow;
-    font-size: large;
-    background-color: rgb(73, 15, 136);
-}
-
-/* INDEX */
+    border-radius: 100px; }
+    .botonera a:hover {
+      color: greenyellow;
+      font-size: large;
+      background-color: #7413dc; }
 
 section {
-    margin-top: 50px;
-}
-
-.contenidoUno h2 {
-    margin-bottom: 20px;
-    padding: 1%;
-    border-radius: 100px;
-    color: white;
-    background-color: rgb(116, 19, 220);
-}
+  margin-top: 50px; }
 
 .contenidoUno {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contenidoUno a {
-    background-color: rgb(116, 19, 220);
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .contenidoUno h2 {
+    margin-bottom: 20px;
+    padding: 1%;
+    border-radius: 100px;
+    color: white;
+    background-color: #7413dc; }
+  .contenidoUno a {
+    background-color: #7413dc;
     padding: 1%;
     color: white;
     border-radius: 100px;
-    text-decoration: none;
-}
-
-.contenidoUno a:hover {
-    color: greenyellow;
-}
-
-.contenidoUno iframe {
-    margin-top: 20px;
-}
+    text-decoration: none; }
+    .contenidoUno a:hover {
+      color: greenyellow; }
+  .contenidoUno iframe {
+    margin-top: 20px; }
 
 .contenidoDos {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-/* NOSOTROS */
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
 
 .contenidoTres {
-    display: flex;
-    align-items: center;
-    margin-bottom: 100px;
-}
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px; }
 
 .contenidoCuatro {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-/* UNIRTE */
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px; }
 
 .unirte div a {
-    text-decoration: none;
-    background-color: rgb(116, 19, 220);
-    padding: 10px;
-    color: white;
-    font-size: larger;
-    border-radius: 100px;
-}
-
-.unirte div a:hover {
+  text-decoration: none;
+  background-color: #7413dc;
+  padding: 10px;
+  color: white;
+  font-size: larger;
+  border-radius: 100px; }
+  .unirte div a:hover {
     color: greenyellow;
     font-size: large;
-    background-color: rgb(73, 15, 136);
-}
+    background-color: #7413dc; }
 
-.contenidoCinco {
-    margin-bottom: 50px;
-}
+.unirte .contenidoCinco {
+  margin-bottom: 50px; }
 
-.contenidoSeis {
-    margin-bottom: 50px;
-}
+.unirte .contenidoSeis {
+  margin-bottom: 50px; }
 
-.contenidoSiete {
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-/* CONTACTO */
-
-.formulario label {
-    color: white;
-    font-size: large;
-}
+.unirte .contenidoSiete {
+  margin-bottom: 50px;
+  text-align: center; }
 
 .formulario {
-    color: black;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 20px; }
+  .formulario label {
+    color: white;
+    font-size: large; }
 
 .contacto {
-    margin-bottom: 50px;
-    padding: 10px;
-    background-color: rgb(116, 19, 220);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-/* ESCULTISMO */
+  margin-bottom: 50px;
+  padding: 10px;
+  background-color: #7413dc;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .contenidoOcho {
-    display: flex;
-    align-items: center;
-    margin-bottom: 100px;
-}
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px; }
 
 .contenidoNueve {
-    display: flex;
-    align-items: center;
-    margin-bottom: 100px;
-}
-
-/* FOOTER */
-
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px; }
 
 .contFooter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(116, 19, 220);
-}
-
-.contFooter ul {
-    display: flex;
-}
-
-.contFooter ul li {
-    list-style: none;
-    margin: 0 10px;
-}
-
-.contFooter ul li a {
-    margin: 0 5px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: white;
-    list-style: none;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7413dc; }
+  .contFooter ul {
+    display: flex; }
+    .contFooter ul li {
+      list-style: none;
+      margin: 0 10px; }
+      .contFooter ul li a {
+        margin: 0 5px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        list-style: none; }
 
 @media screen and (max-width: 400px) {
-    .contenidoDos {
-        display: flex;
-        flex-direction: column;
-    }
-}
+  .contenidoDos {
+    display: flex;
+    flex-direction: column; } }
 
 @media screen and (max-width: 900px) {
-    .contenidoTres {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contenidoCuatro {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contenidoOcho {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contenidoNueve {
-        display: flex;
-        flex-direction: column;
-    }
-}
+  .contenidoTres {
+    display: flex;
+    flex-direction: column; }
+  .contenidoCuatro {
+    display: flex;
+    flex-direction: column; }
+  .contenidoOcho {
+    display: flex;
+    flex-direction: column; }
+  .contenidoNueve {
+    display: flex;
+    flex-direction: column; } }

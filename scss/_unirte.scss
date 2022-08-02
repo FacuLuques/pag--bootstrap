@@ -1,0 +1,27 @@
+.unirte {
+    div {
+      a {
+        text-decoration: none;
+        background-color: $color-primario;
+        padding: 10px;
+        color: white;
+        font-size: larger;
+        border-radius: 100px;
+        &:hover {
+          color: greenyellow;
+          font-size: large;
+          background-color: $color-primario;
+      }
+    }
+  }
+  .contenidoCinco {
+    margin-bottom: 50px;
+  }
+  .contenidoSeis {
+    margin-bottom: 50px;
+  }
+  .contenidoSiete {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  }

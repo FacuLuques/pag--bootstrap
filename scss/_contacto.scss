@@ -1,0 +1,17 @@
+.formulario {
+    label {
+      color: white;
+      font-size: large;
+    }
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .contacto {
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: $color-primario;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
