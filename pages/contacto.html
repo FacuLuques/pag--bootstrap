@@ -66,44 +66,31 @@
         </div>
       </div>
     </header>
-    <section class="contacto">
-      <form class="formulario">
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label"
-            >Correo electrónico</label
-          >
-          <input
-            type="email"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
-          <div id="emailHelp" class="form-text"></div>
+    <div class="donaciones">
+      <h1>Recibimos donaciones</h1>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolorum provident eligendi placeat quos quibusdam ut officia aliquid nobis earum dicta neque repellat illum et, cumque saepe ipsam aspernatur suscipit!</p>
+    </div>
+    <section class="contacto container">
+      <form class="col-xl-3 col-md-6 col-sm-12">
+        <div class="mb-1">
+          <label for="exampleInputEmail1" class="form-label"></label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo electrónico" aria-describedby="emailHelp">
         </div>
-        <div class="mb-3">
-          <label for="exampleInputName1" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="exampleInputPassword1" />
+        <div class="mb-1">
+          <label for="exampleInputPassword1" class="form-label"></label>
+          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nombre" >
         </div>
-        <div class="mb-3">
-          <label for="exampleInputName1" class="form-label">Apellido</label>
-          <input type="text" class="form-control" id="exampleInputPassword1" />
+        <div class="mb-1">
+          <label for="exampleFormControlTextarea1"></label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
         </div>
-        <div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-          <button type="reset" class="btn btn-primary">borrar</button>
-        </div>
+        <button type="submit" class="btn btn-secondary">Enviar</button>
+        <button type="reset" class="btn btn-secondary">Borrar</button>
       </form>
-      <div class="maps">
-        <iframe
-          class="img-fluid rounded"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0399043371535!2d-58.47006078530206!3d-34.62843186631202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9894133a663%3A0xef627fdf0c32dce7!2sGrupo%20Scout%20%22Bernandino%20Rivadavia%22!5e0!3m2!1ses-419!2sar!4v1658637737018!5m2!1ses-419!2sar"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+      <div class="maps container">
+        <div class="mb-3 ratio ratio-16x9 ">
+        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0399043370717!2d-58.4700607841633!3d-34.62843186631429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9894133a663%3A0xef627fdf0c32dce7!2sGrupo%20Scout%20%22Bernandino%20Rivadavia%22!5e0!3m2!1ses-419!2sar!4v1659723196461!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
       </div>
     </section>
     <footer class="footer row">

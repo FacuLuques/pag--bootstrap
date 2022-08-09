@@ -1,14 +1,9 @@
-* {
-  margin: 0%;
-  padding: 0%; }
-
-body {
-  background-color: #c0bcbc; }
-
 .header {
   position: sticky;
   top: 0;
-  background-color: #7413dc; }
+  z-index: 2;
+  background-color: rgba(49, 87, 44, 0.747);
+  border-bottom: 1px black solid; }
   .header div {
     display: flex;
     justify-content: space-between;
@@ -29,91 +24,106 @@ header div h1 {
     text-transform: uppercase;
     color: white;
     text-decoration: none;
-    transition: font-size 0.5s;
+    transition: font-size 0.10s;
     border-radius: 100px; }
     .botonera a:hover {
-      color: greenyellow;
-      font-size: large;
-      background-color: #7413dc; }
+      color: #abc991;
+      font-size: large; }
 
-section {
-  margin-top: 50px; }
-
-.contenidoUno {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .contenidoUno h2 {
-    margin-bottom: 20px;
-    padding: 1%;
-    border-radius: 100px;
-    color: white;
-    background-color: #7413dc; }
-  .contenidoUno a {
-    background-color: #7413dc;
-    padding: 1%;
-    color: white;
-    border-radius: 100px;
-    text-decoration: none; }
-    .contenidoUno a:hover {
-      color: greenyellow; }
-  .contenidoUno iframe {
-    margin-top: 20px; }
-
-.contenidoDos {
-  margin-top: 100px;
+.inicio {
   display: flex;
   justify-content: center;
-  text-align: center;
-  align-items: center; }
-
-.contenidoTres {
-  display: flex;
-  align-items: center;
-  margin-bottom: 100px; }
-
-.contenidoCuatro {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px; }
-
-.unirte div a {
-  text-decoration: none;
-  background-color: #7413dc;
-  padding: 10px;
-  color: white;
-  font-size: larger;
-  border-radius: 100px; }
-  .unirte div a:hover {
-    color: greenyellow;
-    font-size: large;
-    background-color: #7413dc; }
-
-.unirte .contenidoCinco {
-  margin-bottom: 50px; }
-
-.unirte .contenidoSeis {
-  margin-bottom: 50px; }
-
-.unirte .contenidoSiete {
-  margin-bottom: 50px;
-  text-align: center; }
-
-.formulario {
-  color: black;
   margin-top: 50px;
-  margin-bottom: 20px; }
-  .formulario label {
-    color: white;
-    font-size: large; }
-
-.contacto {
+  background-color: #90a955;
+  padding: 50px;
+  border-radius: 50px;
   margin-bottom: 50px;
-  padding: 10px;
-  background-color: #7413dc;
+  color: white; }
+  .inicio h2 {
+    text-align: center;
+    color: white; }
+  .inicio a {
+    text-decoration: none;
+    background-color: rgba(49, 87, 44, 0.747);
+    padding: 10px;
+    color: white;
+    font-size: medium;
+    transition: font-size 0.1s;
+    border-radius: 100px; }
+    .inicio a:hover {
+      color: greenyellow;
+      font-size: large;
+      background-color: rgba(49, 87, 44, 0.747); }
+  .inicio .carousel {
+    margin-top: 20px; }
+
+.nosotros {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  justify-content: center;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .nosotros .contenidoTres {
+    margin-bottom: 50px;
+    background-color: #90a955;
+    border-radius: 50px;
+    padding: 40px; }
+  .nosotros .contenidoCuatro {
+    margin-bottom: 50px;
+    background-color: #90a955;
+    border-radius: 50px;
+    padding: 40px; }
+
+.unirte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .unirte div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .unirte div a {
+      text-decoration: none;
+      background-color: rgba(49, 87, 44, 0.747);
+      padding: 10px;
+      color: white;
+      font-size: medium;
+      transition: font-size 0.10s;
+      border-radius: 100px; }
+      .unirte div a:hover {
+        color: greenyellow;
+        font-size: large;
+        background-color: rgba(49, 87, 44, 0.747); }
+    .unirte div li {
+      margin: 30px 0px; }
+  .unirte .contenidoCinco {
+    margin-bottom: 50px;
+    background-color: #90a955;
+    border-radius: 50px;
+    padding: 30px; }
+  .unirte .contenidoSeis {
+    margin-bottom: 50px;
+    background-color: #90a955;
+    border-radius: 50px;
+    padding: 30px; }
+  .unirte .contenidoSiete {
+    margin-bottom: 50px;
+    background-color: #90a955;
+    border-radius: 50px;
+    padding: 30px; }
+
+.contacto {
+  display: flex;
+  justify-content: space-between; }
+
+.maps {
+  margin-top: 10px; }
 
 .contenidoOcho {
   display: flex;
@@ -129,7 +139,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #7413dc; }
+  background-color: rgba(49, 87, 44, 0.747); }
   .contFooter ul {
     display: flex; }
     .contFooter ul li {
@@ -141,6 +151,14 @@ section {
         text-decoration: none;
         color: white;
         list-style: none; }
+
+* {
+  margin: 0%;
+  padding: 0%; }
+
+body {
+  background-color: #ecf39e;
+  background-attachment: fixed; }
 
 @media screen and (max-width: 400px) {
   .contenidoDos {
