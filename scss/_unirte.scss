@@ -40,15 +40,9 @@
     padding: 30px;
   }
   .contenidoSeis {
-    margin-bottom: 50px;
-    background-color: $color-contenedor;
-    border-radius: 50px;
-    padding: 30px;
+    @extend .contenidoCinco;
   }
   .contenidoSiete {
-    margin-bottom: 50px;
-    background-color: $color-contenedor;
-    border-radius: 50px;
-    padding: 30px;
+    @extend .contenidoCinco;
   }
-  }
+}

@@ -26,3 +26,12 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 1148px) {
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

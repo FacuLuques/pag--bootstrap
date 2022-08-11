@@ -1,9 +1,29 @@
 .contacto {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
+.donaciones {
+  background-color: $color-contenedor;
+  border-radius: 50px;
+  padding: 30px;
+}
+
+form {
+  margin-top: 20px;
+  background-color: $color-contenedor;
+  border-radius: 50px;
+  padding: 30px;
+}
 
 .maps {
-  margin-top: 10px;
+  margin: 20px 0px;
+  background-color: $color-contenedor;
+  border-radius: 50px;
+  padding: 30px;
 }
+
+  .formulario {
+    margin: 20px 10px;
+  }
