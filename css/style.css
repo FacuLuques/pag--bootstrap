@@ -24,8 +24,7 @@ header div h1 {
     text-transform: uppercase;
     color: white;
     text-decoration: none;
-    transition: font-size 0.10s;
-    border-radius: 100px; }
+    transition: font-size 0.1s; }
     .botonera a:hover {
       color: #abc991;
       font-size: large; }
@@ -97,7 +96,7 @@ header div h1 {
       padding: 10px;
       color: white;
       font-size: medium;
-      transition: font-size 0.10s;
+      transition: font-size 0.1s;
       border-radius: 100px; }
       .unirte div a:hover {
         color: greenyellow;
@@ -114,7 +113,8 @@ header div h1 {
 .contacto {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  color: white; }
 
 .donaciones {
   background-color: #90a955;

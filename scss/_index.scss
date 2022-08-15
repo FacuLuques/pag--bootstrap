@@ -24,18 +24,16 @@
       font-size: large;
       background-color: $color-primario;
     }
-
-    
   }
 
-  @mixin parrafoParametros ($size, $alineacion) {
+  @mixin parrafoParametros($size, $alineacion) {
     font-size: $size;
     text-align: $alineacion;
-}
+  }
 
-.quienesTexto {
-    @include parrafoParametros(30px,left )
-}
+  .quienesTexto {
+    @include parrafoParametros(30px, left);
+  }
 
   .carousel {
     margin-top: 20px;

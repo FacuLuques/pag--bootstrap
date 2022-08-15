@@ -1,9 +1,13 @@
 /*Mapas*/
 
-$map-redes: (facebook:blue, instagram: violet, scoutsArg: lightblue);
+$map-redes: (
+  facebook: blue,
+  instagram: violet,
+  scoutsArg: lightblue,
+);
 
 @each $red, $color in $map-redes {
-    .#{$red}:hover {
-        color: $color;
-    }
+  .#{$red}:hover {
+    color: $color;
+  }
 }
