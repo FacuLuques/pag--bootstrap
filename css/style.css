@@ -164,6 +164,9 @@ body {
   background-color: #ecf39e;
   background-attachment: fixed; }
 
+.botonera .selected {
+  color: black; }
+
 @media screen and (max-width: 400px) {
   .contenidoDos {
     display: flex;
