@@ -14,7 +14,8 @@
     list-style: none; }
 
 header div h1 {
-  margin-right: auto; }
+  margin-right: auto;
+  width: 400px; }
 
 .botonera {
   margin-right: 20px; }
@@ -32,6 +33,7 @@ header div h1 {
 .inicio {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 50px;
   background-color: #90a955;
   padding: 50px;
@@ -57,7 +59,9 @@ header div h1 {
     font-size: 30px;
     text-align: left; }
   .inicio .carousel {
-    margin-top: 20px; }
+    margin-top: 20px;
+    position: relative;
+    left: 17%; }
 
 .nosotros {
   display: flex;
@@ -70,7 +74,11 @@ header div h1 {
     margin-bottom: 50px;
     background-color: #90a955;
     border-radius: 50px;
-    padding: 40px; }
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
   .nosotros .contenidoCuatro {
     margin-bottom: 50px;
     background-color: #90a955;
@@ -165,7 +173,7 @@ body {
   background-attachment: fixed; }
 
 .botonera .selected {
-  color: black; }
+  color: greenyellow; }
 
 @media screen and (max-width: 400px) {
   .contenidoDos {

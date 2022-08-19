@@ -1,9 +1,9 @@
 @import "variables", "header", "index", "nosotros", "unirte", "contacto",
   "escultismo", "footer", "body";
 
-  .botonera .selected {
-    color: black;
-  }
+.botonera .selected {
+  color: greenyellow;
+}
 
 ////////////////////////////// MEDIA QUERYS
 @media screen and (max-width: 400px) {
