@@ -59,9 +59,7 @@ header div h1 {
     font-size: 30px;
     text-align: left; }
   .inicio .carousel {
-    margin-top: 20px;
-    position: relative;
-    left: 17%; }
+    margin-top: 20px; }
 
 .nosotros {
   display: flex;
@@ -79,11 +77,6 @@ header div h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-  .nosotros .contenidoCuatro {
-    margin-bottom: 50px;
-    background-color: #90a955;
-    border-radius: 50px;
-    padding: 40px; }
 
 .unirte {
   display: flex;
