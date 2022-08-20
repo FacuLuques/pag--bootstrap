@@ -8,8 +8,9 @@
   border-radius: 50px;
   margin-bottom: 50px;
   color: white;
+  text-align: justify;
   h2 {
-    text-align: center;
+    text-align: justify;
     color: white;
   }
   a {
@@ -33,7 +34,7 @@
   }
 
   .quienesTexto {
-    @include parrafoParametros(30px, left);
+    @include parrafoParametros(30px, justify);
   }
 
   .carousel {

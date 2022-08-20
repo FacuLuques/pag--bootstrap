@@ -39,9 +39,10 @@ header div h1 {
   padding: 50px;
   border-radius: 50px;
   margin-bottom: 50px;
-  color: white; }
+  color: white;
+  text-align: justify; }
   .inicio h2 {
-    text-align: center;
+    text-align: justify;
     color: white; }
   .inicio a {
     text-decoration: none;
@@ -57,7 +58,7 @@ header div h1 {
       background-color: rgba(49, 87, 44, 0.747); }
   .inicio .quienesTexto {
     font-size: 30px;
-    text-align: left; }
+    text-align: justify; }
   .inicio .carousel {
     margin-top: 20px; }
 
@@ -67,7 +68,8 @@ header div h1 {
   justify-content: center;
   color: white;
   margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  text-align: justify; }
   .nosotros .contenidoTres {
     margin-bottom: 50px;
     background-color: #90a955;
@@ -85,7 +87,8 @@ header div h1 {
   align-items: center;
   color: white;
   margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  text-align: justify; }
   .unirte div {
     display: flex;
     flex-direction: column;
@@ -115,7 +118,8 @@ header div h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white; }
+  color: white;
+  text-align: justify; }
 
 .donaciones {
   background-color: #90a955;
@@ -140,12 +144,14 @@ form {
 .contenidoOcho {
   display: flex;
   align-items: center;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  text-align: justify; }
 
 .contenidoNueve {
   display: flex;
   align-items: center;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  text-align: justify; }
 
 /*Mapas*/
 .facebook:hover {
@@ -162,8 +168,7 @@ form {
   padding: 0%; }
 
 body {
-  background-color: #ecf39e;
-  background-attachment: fixed; }
+  background-color: #ecf39e; }
 
 .botonera .selected {
   color: greenyellow; }
