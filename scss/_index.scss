@@ -33,7 +33,7 @@
   }
 
   .quienesTexto {
-    @include parrafoParametros(30px, center);
+    @include parrafoParametros(30px, left);
   }
 
   .carousel {
