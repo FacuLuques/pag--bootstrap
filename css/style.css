@@ -77,6 +77,8 @@ header div h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+  .nosotros img {
+    width: 600px; }
 
 .unirte {
   display: flex;
